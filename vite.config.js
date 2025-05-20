@@ -4,6 +4,7 @@ const path = require("path");
 
 export default {
   root: path.resolve(__dirname, "src"),
+  base: "/MarioLand/",
   server: {
     port: 8080,
     hot: true,
@@ -14,7 +15,6 @@ export default {
     },
   },
   build: {
-    base: "/MarioLand/",
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
     rollupOptions: {
