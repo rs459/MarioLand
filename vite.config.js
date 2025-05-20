@@ -8,13 +8,13 @@ export default {
     port: 8080,
     hot: true,
   },
-  base: "/MarioLand/",
   resolve: {
     alias: {
       "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"),
     },
   },
   build: {
+    base: "/MarioLand/",
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
     rollupOptions: {
