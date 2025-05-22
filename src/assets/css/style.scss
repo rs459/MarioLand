@@ -37,3 +37,8 @@ select {
 @import "pages/photos";
 @import "pages/tarif";
 @import "pages/mentions-legales";
+
+.recette table{
+  border: black 2px solid;
+  background-color: greenyellow;
+}
