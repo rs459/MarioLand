@@ -140,22 +140,6 @@ body {
 @media screen and (min-width: 1200px) {
   .SousTitre {
     text-align: center;
-    font-size: 2rem;
-    margin: 15px 25%;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .SousTitre {
-    text-align: center;
-    font-family: "Press Start 2P";
-    font-size: 1.75rem;
-    margin: 15px 25%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .SousTitre {
-    text-align: center;
     font-family: "Press Start 2P";
     font-size: 2rem;
     margin: 15px 25%;
