@@ -38,6 +38,24 @@ select {
   margin: 50px;
   padding-top: 50px;
 }
+@media screen and (min-width: 800px) {
+  .Titre {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 3rem;
+    margin: 50px;
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Titre {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 4rem;
+    margin: 50px;
+    padding-top: 50px;
+  }
+}
 
 @media screen and (min-width: 800px) {
   .Titre {
@@ -88,6 +106,7 @@ select {
 @media screen and (min-width: 800px) {
   .SousTitre {
     text-align: center;
+    font-family: "Press Start 2P";
     font-size: 1.75rem;
     margin: 15px 25%;
     -webkit-text-stroke: 2px #d26b20;
