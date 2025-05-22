@@ -36,18 +36,52 @@ select {
 .Titre {
   text-align: center;
   font-family: "Press Start 2P";
-  font-size: 64px;
+  font-size: 2rem;
   margin: 50px;
   padding-top: 50px;
+}
+@media screen and (min-width: 800px) {
+  .Titre {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 3rem;
+    margin: 50px;
+    padding-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Titre {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 4rem;
+    margin: 50px;
+    padding-top: 50px;
+  }
 }
 
 .SousTitre {
   text-align: center;
-  font-family: "Press Start 2P";
-  font-size: 32px;
+  font-size: 1.5rem;
   margin: 15px 25%;
   color: #fbe122;
-  -webkit-text-stroke: 2px #d26b20;
+  -webkit-text-stroke: 1px #d26b20;
+}
+@media screen and (min-width: 800px) {
+  .SousTitre {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 1.75rem;
+    margin: 15px 25%;
+    -webkit-text-stroke: 2px #d26b20;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .SousTitre {
+    text-align: center;
+    font-family: "Press Start 2P";
+    font-size: 2rem;
+    margin: 15px 25%;
+  }
 }
 
 /* Importer les fichiers SCSS pour les composants globaux */
