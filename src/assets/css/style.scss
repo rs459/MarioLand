@@ -33,8 +33,20 @@ select {
 
 /* Style globaux ici */
 
+.Titre {
+  text-align: center;
+  font-family: "Press Start 2P";
+  margin: 50px;
+  padding-top: 50px;
+}
 
-
+.SousTitre {
+  text-align: center;
+  font-family: "Press Start 2P";
+  margin: 15px;
+  color: #fbe122;
+  -webkit-text-stroke: 2px #d26b20;
+}
 
 /* Importer les fichiers SCSS pour chaque page */
 
