@@ -31,7 +31,13 @@ select {
   }
 }
 
-@import "global";
+/* Style globaux ici */
+
+
+
+
+/* Importer les fichiers SCSS pour chaque page */
+
 @import "pages/index";
 @import "pages/contact";
 @import "pages/photos";
