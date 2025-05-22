@@ -1,3 +1,5 @@
+import { deprecations } from "sass";
+
 const path = require("path");
 
 // @see https://getbootstrap.com/docs/5.2/getting-started/vite/
@@ -12,6 +14,19 @@ export default {
   resolve: {
     alias: {
       "~bootstrap": path.resolve(__dirname, "node_modules/bootstrap"),
+    },
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: "modern-compiler", // or "modern"
+        silenceDeprecations: [
+          "mixed-decls",
+          "color-functions",
+          "global-builtin",
+          "import",
+        ],
+      },
     },
   },
   build: {
