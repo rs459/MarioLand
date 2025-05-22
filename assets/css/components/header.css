@@ -30,7 +30,7 @@
       width: 700px;
       gap: 25px;
       li {
-        background-image: url("../images/blocTitre.png");
+        background-image: url("/assets/images/blocTitre.png");
         background-size: contain;
         padding: 0px 10px;
         border: #fbe122 2px solid;
