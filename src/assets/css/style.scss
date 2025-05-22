@@ -33,11 +33,27 @@ select {
 
 /* Style globaux ici */
 
+.Titre {
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-size: 64px;
+  margin: 50px;
+  padding-top: 50px;
+}
 
+.SousTitre {
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-size: 32px;
+  margin: 15px 25%;
+  color: #fbe122;
+  -webkit-text-stroke: 2px #d26b20;
+}
 
 /* Importer les fichiers SCSS pour les composants globaux */
 @import "components/header";
 @import "components/footer";
+
 /* Importer les fichiers SCSS pour chaque page */
 
 @import "pages/index";
