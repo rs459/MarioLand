@@ -19,8 +19,8 @@
     }
     .main-nav{
         position: absolute;
-        right: 15%;
-        top: 30%;
+        right: 5%;
+        top: 40%;
         transform: translate(-50% 50%);
         ul{
             display: flex;
@@ -62,9 +62,39 @@
     width: 30px;
     top: 20%;
     right: 40%;
+    z-index: 60;
 }
 .main-header .bi-list {
     position: absolute;
-    right:0;
+    right:1%;
+    top: 10%;
+    background-color: white;
+    border-radius: 25%;
     display: none;
+}
+@media (width < 1150px) {
+    .main-nav{
+        ul{
+            width: 500px;
+            gap: 10px;
+            li{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (width < 1000px) {
+    .main-nav{
+        display: none;
+        
+    }
+    .caseMystere{
+        right: 20%;
+
+    }
+    .main-header .bi-list{
+        display: block;
+    }
 }
