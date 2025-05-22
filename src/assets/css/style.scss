@@ -64,7 +64,7 @@ select {
   font-size: 1.5rem;
   margin: 15px 25%;
   color: #fbe122;
-  -webkit-text-stroke: 2px #d26b20;
+  -webkit-text-stroke: 1px #d26b20;
 }
 @media screen and (min-width: 800px) {
   .SousTitre {
@@ -72,6 +72,7 @@ select {
     font-family: "Press Start 2P";
     font-size: 1.75rem;
     margin: 15px 25%;
+    -webkit-text-stroke: 2px #d26b20;
   }
 }
 @media screen and (min-width: 1200px) {
