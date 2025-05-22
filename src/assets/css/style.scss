@@ -50,6 +50,10 @@ select {
   -webkit-text-stroke: 2px #d26b20;
 }
 
+/* Importer les fichiers SCSS pour les composants globaux */
+@import "components/header";
+@import "components/footer";
+
 /* Importer les fichiers SCSS pour chaque page */
 
 @import "pages/index";
