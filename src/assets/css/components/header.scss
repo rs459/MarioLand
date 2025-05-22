@@ -1,0 +1,70 @@
+.main-header{
+    height: 20vh;
+    background-color: #6EC1E4;
+    position: relative;
+}
+.titre{
+    z-index: 50;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    a{
+        img{
+            width: 200px;
+            position: absolute;
+            top: 20%;
+            left: 15%;
+            transform: translate(-50% 50%);
+        }
+    }
+    .main-nav{
+        position: absolute;
+        right: 15%;
+        top: 30%;
+        transform: translate(-50% 50%);
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 700px;
+            gap: 25px;
+            li{
+                background-image: url('../images/blocTitre.png');
+                background-size: contain;
+                padding: 0px 10px;
+                border: #FBE122 2px solid;
+                a{
+                    font-size: 2rem;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+.grandTuyau, .petitTuyau, .moyenTuyau{
+    position: absolute;
+    bottom: 0;
+    width: 35px;
+}
+.grandTuyau{
+    left: 10%;
+}
+.petitTuyau{
+    left: 50%;
+}
+.moyenTuyau{
+    right: 20%;
+}
+.caseMystere{
+    position: absolute;
+    width: 30px;
+    top: 20%;
+    right: 40%;
+}
+.main-header .bi-list {
+    position: absolute;
+    right:0;
+    display: none;
+}
