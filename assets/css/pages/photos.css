@@ -46,8 +46,3 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-@font-face {
-  font-family: press;
-  src: url("../font/PressStart2P-Regular.ttf");
-}
