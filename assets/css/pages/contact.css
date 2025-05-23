@@ -1,0 +1,19 @@
+.page-contact {
+  .contact-list {
+    display: flex;
+    justify-content: space-evenly;
+
+    > ul {
+      display: flex;
+    }
+
+    > li {
+      display: flex;
+      flex-direction: row;
+    }
+
+    ul > li {
+      list-style-type: disc;
+    }
+  }
+}
