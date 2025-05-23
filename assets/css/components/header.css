@@ -170,7 +170,7 @@
   }
   .marioPeace,
   .marioMini,
-  .marioDead{
-  display: none;
+  .marioDead {
+    display: none;
   }
 }
