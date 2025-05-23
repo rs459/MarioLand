@@ -73,17 +73,20 @@
     display: none;
 }
 @media (width < 1150px) {
-    .main-nav{
+    .titre{
+        .main-nav{
         ul{
-            width: 500px;
+            width: 600px;
             gap: 10px;
             li{
                 a{
-                    font-size: 1rem;
+                    font-size: 1.5rem;
+                    }
                 }
             }
         }
     }
+    
 }
 @media (width < 1000px) {
     .main-nav{
