@@ -10,6 +10,10 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press Start 2P"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/components/header.css" />
     <link rel="stylesheet" href="assets/css/components/footer.css" />
@@ -17,7 +21,7 @@
     <link rel="shortcut icon" href="./assets/images/marioMiniature.png" type="image/x-icon">
     <meta name="description" content="Page de prise de contact avec une personne responsable de la communication du parc MarioLand" />
   </head>
-  <body>
+  <body class="page-contact">
     <div class="site-container">
       <header class="main-header">
         <div class="titre">
@@ -73,7 +77,68 @@
         </svg>
       </header>
       <main>
-        <h1>Contact</h1>
+        <h1 class="SousTitre">Contact</h1>
+        <ul class="contact-list">
+          <li>
+            <div>
+              <h3>Slim<br />(Directeur) :</h3>
+              <ul>
+                <li>06 06 06 06 06</li>
+                <li>Slim@marioland.tld</li>
+              </ul>
+            </div>
+            <img src="assets/images/Bowser.png" alt="Photo de Slim" />
+          </li>
+          <li>
+            <div>
+              <h3>Louis<br />(Trésorier) :</h3>
+              <ul>
+                <li>06 06 06 06 07</li>
+                <li>Louis@marioland.tld</li>
+              </ul>
+            </div>
+            <img src="assets/images/Yoshi.png" alt="Photo de Louis" />
+          </li>
+          <li>
+            <div>
+              <h3>Rodrigue<br />(Responsable) :</h3>
+              <ul>
+                <li>06 06 06 06 08</li>
+                <li>Rodrigue@marioland.tld</li>
+              </ul>
+            </div>
+            <img src="assets/images/DonkeyKong.png" alt="Photo de Rodrigue" />
+          </li>
+        </ul>
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="surname">Prénom :</label>
+            <input type="text" id="surname" name="surname" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="telephone">Téléphone :</label>
+            <input type="text" id="telephone" name="telephone" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for="consent">
+              En cochant j'accepte les termes et conditions
+            </label>
+          </div>
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
       </main>
       <footer class="main-footer">
         <a href="mentions-legales.html">Mentions légales</a>
