@@ -41,6 +41,7 @@ body {
   margin: 50px;
   padding-top: 50px;
 }
+
 @media screen and (min-width: 800px) {
   .Titre {
     text-align: center;
