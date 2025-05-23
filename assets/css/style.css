@@ -1,5 +1,3 @@
-@import "~bootstrap/scss/bootstrap";
-
 /* Normalize some styles across browsers */
 /* Remove list styles on ul, ol elements with a class attribute */
 ul,
@@ -40,6 +38,7 @@ select {
   margin: 50px;
   padding-top: 50px;
 }
+
 @media screen and (min-width: 800px) {
   .Titre {
     text-align: center;
@@ -82,6 +81,7 @@ select {
     margin: 15px 25%;
   }
 }
+<<<<<<< HEAD:src/assets/css/style.scss
 
 /* Importer les fichiers SCSS pour les composants globaux */
 @import "components/header";
@@ -94,3 +94,5 @@ select {
 @import "pages/photos";
 @import "pages/tarif";
 @import "pages/mentions-legales";
+=======
+>>>>>>> e6a64ca (Retrait de vite):assets/css/style.css
