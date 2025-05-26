@@ -27,7 +27,7 @@ main {
         border-radius: 0 0 15px 15px;
         height: auto;
         padding: 15px;
-        background-image: url("/assets/images/Salopette.png");
+        background-image: url("../../images/Salopette.png");
         background-size: cover;
         background-position: center;
         .detail {
@@ -102,5 +102,5 @@ main {
 
 @font-face {
   font-family: press;
-  src: url("/assets/font/PressStart2P-Regular.ttf");
+  src: url("../../font/PressStart2P-Regular.ttf");
 }
