@@ -30,7 +30,7 @@
       width: 700px;
       gap: 25px;
       li {
-        background-image: url("/assets/images/blocTitre.png");
+        background-image: url("../../images/blocTitre.png");
         background-size: contain;
         padding: 0px 10px;
         border: #fbe122 2px solid;
@@ -49,15 +49,37 @@
   position: absolute;
   bottom: 0;
   width: 35px;
+  z-index: 2;
+}
+.marioPeace,
+.marioMini,
+.marioDead {
+  position: absolute;
+  z-index: 1;
+  transition: all 1s ease-out;
 }
 .grandTuyau {
   left: 10%;
 }
+.marioPeace {
+  left: 10.2%;
+  bottom: 14%;
+  width: 25px;
+}
 .petitTuyau {
   left: 50%;
 }
+.marioMini {
+  left: 50.45%;
+  bottom: 0;
+  width: 20px;
+}
 .moyenTuyau {
   right: 20%;
+}
+.marioDead {
+  right: 20.2%;
+  bottom: 10%;
 }
 .caseMystere {
   position: absolute;
@@ -98,5 +120,10 @@
   }
   .main-header .bi-list {
     display: block;
+  }
+  .marioPeace,
+  .marioMini,
+  .marioDead{
+  display: none;
   }
 }
