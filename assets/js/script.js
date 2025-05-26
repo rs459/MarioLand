@@ -36,8 +36,4 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleBtn.setAttribute("aria-expanded", String(!isExpanded));
     nav.hidden = isExpanded;
   });
-
-  document.querySelector(".moyenTuyau").addEventListener("mouseleave", () => {
-    marioDead.style.bottom = "10%";
-  });
 });
