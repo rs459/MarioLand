@@ -102,9 +102,6 @@
     background-color: rgba(110, 193, 228, 0.6);
     border: 5px solid #d6e410;
   }
-
-  .carousel-item {
-  }
 }
 
 @media screen and (max-width: 800px) and (min-width: 600px) {
