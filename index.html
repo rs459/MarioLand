@@ -11,70 +11,57 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css?family=Press Start 2P" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/components/header.css" />
+  
     <link rel="stylesheet" href="assets/css/components/footer.css" />
     <link rel="stylesheet" href="assets/css/pages/index.css" />
     <link rel="shortcut icon" href="./assets/images/marioMiniature.png" type="image/x-icon">
     <meta name="description" content="Page d'accueil et de présentation du parc MarioLand" />
   </head>
-  <body>
+  <body class="page-index">
     <div class="site-container">
       <header class="main-header">
-        <div class="titre">
-          <a href="index.html">
-            <img
-              src="assets/images/Super_Nintendo_World_logo.png"
-              alt="Logo de Super Mario Land"
-            />
-          </a>
-          <nav class="main-nav">
-            <ul>
-              <li><a href="tarifs.html">Tarifs & Sécurité</a></li>
-              <li><a href="photos.html">Nos photos</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-        <img
-          src="./assets/images/marioTuyauGrand.png"
-          alt=""
-          class="grandTuyau"
-        />
-        <img
-          src="./assets/images/marioTuyauPetit.png"
-          alt=""
-          class="petitTuyau"
-        />
-        <img
-          src="./assets/images/marioTuyauMoyen.png"
-          alt=""
-          class="moyenTuyau"
-        />
-        <img
-          src="./assets/images/Bloc_surprise_.webp"
-          alt=""
-          class="caseMystere"
-        />
-        <img src="./assets/images/Mario.png" alt="" class="marioPeace">
-        <img src="./assets/images/marioMiniature.png" alt="" class="marioMini">
-        <img src="./assets/images/marioDead.png" alt="" class="marioDead">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="50"
-          height="50"
-          fill="#6EC1E4"
-          class="bi bi-list"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-          />
-        </svg>
+      <nav class="main-nav">
+        <ul>
+
+          <li><a href="/tarifs.html">tarifs et securité</a></li>
+          <li><a href="/photos.html">nos photos</a></li>
+          <li><a href="/contact.html">contact</a></li>
+          
+        </ul>
+        
+      </nav>
       </header>
       <main>
-        <h1>Accueil</h1>
+        <p class="p-index">Bienvenue à MARIOLAND, un parc d’attractions unique situé au cœur de la nature, qui promet des moments inoubliables
+          en
+          famille ou entre amis. Alliant sensations fortes, univers féériques et espaces de détente, Aventura Park est la
+          destination idéale pour petits et grands.
+        </p>
+        <img class="image-index" src="/assets/images/image-index.png" width="942" height="628" alt="">
+        <img class="image2-index" src="/assets/images/marioFloor_2.png" width="1440" height="186" alt="" />
+        <div class="card-container">
+          <div class="card">
+            <h3>Patrick G</h3>
+            <p> Une expérience magique et transcendante ! Au-delà des attractions de pointe, c'est l'atmosphère générale qui captive.
+            Tout est conçu pour émerveiller, des décors somptueux aux spectacles grandioses. On en ressort avec des étoiles plein
+            les yeux et l'envie irrésistible d'y retourner très vite. Un véritable chef-d'œuvre du divertissement !.</p>
+          </div>
+          <div class="card">
+            <h3>Marlène H</h3>
+            <p>Ce parc est une perfection ! L'ambiance est festive, le personnel est incroyablement aimable et les manèges sont d'une
+            qualité et d'une diversité rares. Que vous soyez amateur de frissons intenses ou de moments plus doux, vous trouverez
+            votre bonheur ici. Un must absolu pour tous les âges !</p>
+          </div>
+          <div class="card">
+            <h3>Joe Dassin</h3>
+            <p>Absolument époustouflant ! Chaque attraction est une pure merveille d'ingéniosité et de sensations. On est transporté
+            dans un autre monde dès l'entrée, et l'attention aux détails est tout simplement bluffante. Une journée inoubliable, un
+            vrai concentré de bonheur !</p>
+          </div>
+          <!-- TODO: Carrousel -->
+        </div>
       </main>
       <footer class="main-footer">
         <a href="mentions-legales.html">Mentions légales</a>
