@@ -16,4 +16,87 @@
       list-style-type: disc;
     }
   }
+
+  .contact-form {
+    margin: 26px;
+  }
+
+  .form-container-inside {
+    margin-inline: auto;
+    border: 4px solid #e2edf2;
+    max-width: 800px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+      "name surname"
+      "email telephone"
+      "message message"
+      "consent consent";
+
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "name"
+        "surname"
+        "email"
+        "telephone"
+        "message"
+        "consent";
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 0;
+      background-color: #e2edf2;
+      border-radius: 8px;
+    }
+
+    .form-group-name {
+      grid-area: name;
+    }
+    .form-group-surname {
+      grid-area: surname;
+    }
+    .form-group-email {
+      grid-area: email;
+    }
+    .form-group-telephone {
+      grid-area: telephone;
+    }
+    .form-group-message {
+      grid-area: message;
+    }
+    .form-group-consent {
+      grid-area: consent;
+    }
+  }
+
+  .form-container-outside {
+    text-align: center;
+
+    button {
+      width: 100%;
+      max-width: 600px;
+      padding: 10px;
+      border: 0;
+      background-color: #6ec1e4;
+      color: black;
+      border-radius: 35px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 26px;
+
+      &:hover,
+      &:focus {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
 }
