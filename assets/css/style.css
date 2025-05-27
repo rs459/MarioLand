@@ -31,6 +31,10 @@ select {
 
 /* Style globaux ici */
 
+body {
+  font-family: "Open Sans";
+}
+
 .Titre {
   text-align: center;
   font-family: "Press Start 2P";
