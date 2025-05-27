@@ -14,8 +14,15 @@
     <link rel="stylesheet" href="assets/css/components/header.css" />
     <link rel="stylesheet" href="assets/css/components/footer.css" />
     <link rel="stylesheet" href="assets/css/pages/tarif.css" />
-    <link rel="shortcut icon" href="./assets/images/marioMiniature.png" type="image/x-icon">
-    <meta name="description" content="Page de tarifs pour les tickets d'entrée du parc, pass et réduction famille" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/marioMiniature.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Page de tarifs pour les tickets d'entrée du parc, pass et réduction famille"
+    />
   </head>
 
   <body>
@@ -56,22 +63,52 @@
           alt=""
           class="caseMystere"
         />
-        <img src="./assets/images/Mario.png" alt="" class="marioPeace">
-        <img src="./assets/images/marioMiniature.png" alt="" class="marioMini">
-        <img src="./assets/images/marioDead.png" alt="" class="marioDead">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="50"
-          height="50"
-          fill="#6EC1E4"
-          class="bi bi-list"
-          viewBox="0 0 16 16"
+        <img src="./assets/images/Mario.png" alt="" class="marioPeace" />
+        <img
+          src="./assets/images/marioMiniature.png"
+          alt=""
+          class="marioMini"
+        />
+        <img src="./assets/images/marioDead.png" alt="" class="marioDead" />
+        <button
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Ouvrir le menu de navigation"
         >
-          <path
-            fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
-          />
-        </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="#6EC1E4"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+            role="img"
+            focusable="false"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </button>
+
+        <nav class="main-nav-mobile" hidden>
+          <div class="navMobileStyle">
+            <img src="./assets/images/marioFloorFooter2.jpg" alt="" class="bordTop" />
+            <ul>
+              <li><a href="tarifs.html">Tarifs & Sécurité</a></li>
+              <li><a href="photos.html">Nos photos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img
+              src="./assets/images/marioFloorFooter2.jpg"
+              alt=""
+              class="bordBottom"
+            />
+          </div>
+        </nav>
       </header>
       <main>
         <div class="tarif">
