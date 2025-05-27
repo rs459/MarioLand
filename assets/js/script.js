@@ -41,6 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
     marioDead.style.bottom = "10%";
   });
 });
+
+// Animation des Mario sortant des différents tuyaux
 const marioPeace = document.querySelector('.marioPeace');
 const marioMini = document.querySelector('.marioMini');
 const marioDead = document.querySelector('.marioDead');
@@ -64,4 +66,16 @@ document.querySelector(".moyenTuyau").addEventListener("mouseover", () => {
 });
 document.querySelector(".moyenTuyau").addEventListener("mouseleave", () => {
   marioDead.style.bottom = "10%";
+});
+
+// animation de la bar de nav pour le menu burger
+
+const toggleBtn = document.getElementById("menu-toggle");
+const nav = document.querySelector(".main-nav-mobile");
+
+toggleBtn.addEventListener("click", () => {
+  const isExpanded = toggleBtn.getAttribute("aria-expanded") === "true";
+
+  toggleBtn.setAttribute("aria-expanded", String(!isExpanded));
+  nav.hidden = isExpanded;
 });
