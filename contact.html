@@ -19,8 +19,15 @@
     <link rel="stylesheet" href="assets/css/components/header.css" />
     <link rel="stylesheet" href="assets/css/components/footer.css" />
     <link rel="stylesheet" href="assets/css/pages/contact.css" />
-    <link rel="shortcut icon" href="./assets/images/marioMiniature.png" type="image/x-icon">
-    <meta name="description" content="Page de prise de contact avec une personne responsable de la communication du parc MarioLand" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/marioMiniature.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Page de prise de contact avec une personne responsable de la communication du parc MarioLand"
+    />
   </head>
   <body class="page-contact">
     <div class="site-container">
@@ -60,9 +67,13 @@
           alt=""
           class="caseMystere"
         />
-        <img src="./assets/images/Mario.png" alt="" class="marioPeace">
-        <img src="./assets/images/marioMiniature.png" alt="" class="marioMini">
-        <img src="./assets/images/marioDead.png" alt="" class="marioDead">
+        <img src="./assets/images/Mario.png" alt="" class="marioPeace" />
+        <img
+          src="./assets/images/marioMiniature.png"
+          alt=""
+          class="marioMini"
+        />
+        <img src="./assets/images/marioDead.png" alt="" class="marioDead" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
@@ -111,34 +122,38 @@
             <img src="assets/images/DonkeyKong.png" alt="Photo de Rodrigue" />
           </li>
         </ul>
-        <form action="#">
-          <div class="form-group">
-            <label for="name">Nom :</label>
-            <input type="text" id="name" name="name" required />
+        <form action="#" class="contact-form">
+          <div class="form-container-inside">
+            <div class="form-group form-group-name">
+              <label for="name">Nom :</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group form-group-surname">
+              <label for="surname">Prénom :</label>
+              <input type="text" id="surname" name="surname" required />
+            </div>
+            <div class="form-group form-group-email">
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group form-group-telephone">
+              <label for="telephone">Téléphone :</label>
+              <input type="tel" id="telephone" name="telephone" required />
+            </div>
+            <div class="form-group form-group-message">
+              <label for="message">Message :</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group form-group-consent">
+              <input type="checkbox" id="consent" name="consent" required />
+              <label for="consent">
+                En cochant j'accepte les termes et conditions
+              </label>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="surname">Prénom :</label>
-            <input type="text" id="surname" name="surname" required />
+          <div class="form-container-outside">
+            <button type="submit" class="btn">Envoyer</button>
           </div>
-          <div class="form-group">
-            <label for="email">Email :</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="telephone">Téléphone :</label>
-            <input type="text" id="telephone" name="telephone" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <div class="form-group">
-            <input type="checkbox" id="consent" name="consent" required />
-            <label for="consent">
-              En cochant j'accepte les termes et conditions
-            </label>
-          </div>
-          <button type="submit" class="btn">Envoyer</button>
         </form>
       </main>
       <footer class="main-footer">
