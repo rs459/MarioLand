@@ -1,5 +1,5 @@
 .page-mentions-legales p {
-  font-style: italic;
+  font-style: openSans;
   font-size: 1rem;
   margin: 15px 12.5%;
 }
@@ -13,3 +13,4 @@
     font-size: 1.5rem;
   }
 }
+

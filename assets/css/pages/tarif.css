@@ -7,7 +7,7 @@ main {
   }
 }
 .tarif {
-  padding: 100px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -23,6 +23,10 @@ main {
     gap: 50px;
     .ticket {
       width: 324px;
+      img {
+        width: 100%;
+        height: auto;
+      }
       .text {
         border-radius: 0 0 15px 15px;
         height: auto;
@@ -56,12 +60,13 @@ main {
   }
 }
 .bandeau {
+  padding: 20px 0;
   img {
     width: 100%;
   }
 }
 .securite {
-  padding: 100px;
+  padding: 20px;
   p {
     padding: 50px;
     font-size: 1.7rem;
@@ -70,8 +75,8 @@ main {
 }
 @media (width < 900px) {
   main {
-    h1 {
-      font-size: 1.7rem;
+    .Soustitre {
+      margin: 0;
     }
     .tarif {
       .position {
@@ -100,13 +105,13 @@ main {
   }
 }
 @media (width < 600px) {
-  main{
-    h1{
+  main {
+    h1 {
       font-size: 1.5rem;
     }
   }
-  .securite{
-    p{
+  .securite {
+    p {
       padding: 20px 0;
       font-size: 1rem;
     }
