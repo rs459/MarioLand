@@ -5,6 +5,7 @@
     background-size: 100%;
     width: 100%;
     position: relative;
+    height: auto;
   }
 
   .main-nav {
@@ -157,6 +158,13 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .page-index {
+    #menu-toggle {
+      display: block;
+    }
+  }
+}
 @media screen and (max-width: 800px) and (min-width: 600px) {
   .page-index {
     .main-header {
