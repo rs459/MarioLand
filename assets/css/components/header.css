@@ -1,0 +1,173 @@
+.main-header {
+  height: 20vh;
+  background-color: #6ec1e4;
+  position: relative;
+}
+.titre {
+  z-index: 50;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  a {
+    img {
+      width: 200px;
+      position: absolute;
+      top: 20%;
+      left: 15%;
+      transform: translate(-50% 50%);
+    }
+  }
+  .main-nav {
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    transform: translate(-50% 50%);
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 700px;
+      gap: 25px;
+      li {
+        background-image: url("../../images/blocTitre.png");
+        background-size: contain;
+        padding: 0px 10px;
+        border: #fbe122 2px solid;
+        a {
+          font-size: 2rem;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+.grandTuyau,
+.petitTuyau,
+.moyenTuyau {
+  position: absolute;
+  bottom: 0;
+  width: 35px;
+  z-index: 2;
+}
+.marioPeace,
+.marioMini,
+.marioDead {
+  position: absolute;
+  z-index: 1;
+  transition: all 1s ease-out;
+}
+.grandTuyau {
+  left: 10%;
+}
+.marioPeace {
+  left: 10.2%;
+  bottom: 14%;
+  width: 25px;
+}
+.petitTuyau {
+  left: 50%;
+}
+.marioMini {
+  left: 50.45%;
+  bottom: 0;
+  width: 20px;
+}
+.moyenTuyau {
+  right: 20%;
+}
+.marioDead {
+  right: 20.2%;
+  bottom: 10%;
+}
+.caseMystere {
+  position: absolute;
+  width: 30px;
+  top: 20%;
+  right: 40%;
+  z-index: 60;
+}
+#menu-toggle {
+  position: absolute;
+  right: 1%;
+  top: 10%;
+  background-color: white;
+  border-radius: 25%;
+  display: none;
+  border: none;
+}
+.main-nav-mobile {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #6ec1e4;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+
+  .navMobileStyle {
+    width: 100%;
+    position: relative;
+    img {
+      position: absolute;
+      width: 100%;
+      height: 25px;
+    }
+    .bordtop {
+      top: 0;
+    }
+    .bordBottom {
+      bottom: 0;
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+@media (width < 1150px) {
+  .titre {
+    .main-nav {
+      ul {
+        width: 600px;
+        gap: 10px;
+        li {
+          a {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media (width < 1000px) {
+  .main-nav {
+    display: none;
+  }
+  .caseMystere {
+    right: 20%;
+  }
+  #menu-toggle {
+    display: block;
+  }
+  .marioPeace,
+  .marioMini,
+  .marioDead {
+    display: none;
+  }
+}

@@ -1,10 +1,36 @@
-# MarioLand
+# Projet Marioland
 
-## How to start
+Projet de création d’un site vitrine pour le parc MarioLand, commandé par son directeur, visant à proposer une présentation immersive du parc, de ses services, tarifs et règles, avec galerie photo, témoignages, formulaire de contact RGPD, mentions légales, et une architecture en cinq pages (accueil, contact, galerie, tarifs/sécurité, mentions légales)
 
-Contributeurs :
+## Méthodologie / Outils
+
+- jira
+- scrum
+- git (stratégie github-flow)
+- figma (zoning + wireframes + maquettes + prototypes)
+
+## Fonctionnalité
+
+- Interface responsive mobile, tablette, desktop
+
+## Sources
+
+ Adresse du repo <https://github.com/rs459/MarioLand.git>
+ Branche de Travail `dev`
+ Branche principale `main`
+
+## Ressources
+
+- <https://slims924.atlassian.net/jira/software/projects/OM/boards/34>
+- <https://www.figma.com/files/team/1504762705423281678/recents-and-sharing?fuid=1504762703004166100>
+
+## Contributeurs
 
 - <https://github.com/rs459>
 - <https://github.com/DelabyLouis>
 - <https://github.com/slimabderrezak>
 - <https://github.com/RodrigueBotte>
+
+## Crédit images
+
+<https://www.kanpai.fr/osaka/super-nintendo-world-usj>

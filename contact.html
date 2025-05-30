@@ -3,51 +3,207 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-      crossorigin="anonymous"
-    />
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/components/header.css" />
     <link rel="stylesheet" href="assets/css/components/footer.css" />
     <link rel="stylesheet" href="assets/css/pages/contact.css" />
-    <meta name="description" content="" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/marioMiniature.png"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Page de prise de contact avec une personne responsable de la communication du parc MarioLand"
+    />
   </head>
-  <body>
+  <body class="page-contact">
     <div class="site-container">
       <header class="main-header">
-        <a href="index.html">
-          <img src="assets/img/logo.png" alt="MarioLand" />
-        </a>
-        <nav class="main-nav">
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li>Contact</li>
-            <li><a href="photos.html">Nos photos</a></li>
-            <li><a href="tarifs.html">Tarifs & Sécurité</a></li>
-          </ul>
+        <div class="titre">
+          <a href="index.html">
+            <img
+              src="assets/images/Super_Nintendo_World_logo.webp"
+              alt="Retour à l'accueil de MarioLand"
+            />
+          </a>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="tarifs.html">Tarifs & Sécurité</a></li>
+              <li><a href="photos.html">Nos photos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <img
+          src="./assets/images/marioTuyauGrand.webp"
+          alt=""
+          class="grandTuyau"
+        />
+        <img
+          src="./assets/images/marioTuyauPetit.webp"
+          alt=""
+          class="petitTuyau"
+        />
+        <img
+          src="./assets/images/marioTuyauMoyen.webp"
+          alt=""
+          class="moyenTuyau"
+        />
+        <img
+          src="./assets/images/Bloc_surprise_.webp"
+          alt=""
+          class="caseMystere"
+        />
+        <img src="./assets/images/Mario.webp" alt="" class="marioPeace" />
+        <img
+          src="./assets/images/marioMiniature.webp"
+          alt=""
+          class="marioMini"
+        />
+        <img src="./assets/images/marioDead.webp" alt="" class="marioDead" />
+        <button
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Ouvrir le menu de navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="#6EC1E4"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+            role="img"
+            focusable="false"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </button>
+
+        <nav class="main-nav-mobile" hidden>
+          <div class="navMobileStyle">
+            <img
+              src="./assets/images/marioFloorFooter2.webp"
+              alt=""
+              class="bordTop"
+            />
+            <ul>
+              <li><a href="tarifs.html">Tarifs & Sécurité</a></li>
+              <li><a href="photos.html">Nos photos</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img
+              src="./assets/images/marioFloorFooter2.webp"
+              alt=""
+              class="bordBottom"
+            />
+          </div>
         </nav>
       </header>
       <main>
-        <h1>Contact</h1>
+        <h1 class="SousTitre">Contact</h1>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <div>
+              <h2>Slim<br />(Directeur) :</h2>
+              <ul>
+                <li>06 06 06 06 06</li>
+                <li>Slim@marioland.tld</li>
+              </ul>
+            </div>
+            <img src="assets/images/Bowser.png" alt="Photo de Slim" />
+          </li>
+          <li class="contact-item">
+            <div>
+              <h2>Louis<br />(Trésorier) :</h2>
+              <ul>
+                <li>06 06 06 06 07</li>
+                <li>Louis@marioland.tld</li>
+              </ul>
+            </div>
+            <img src="assets/images/Yoshi.png" alt="Photo de Louis" />
+          </li>
+          <li class="contact-item">
+            <div>
+              <h2>Rodrigue<br />(Responsable) :</h2>
+              <ul>
+                <li>06 06 06 06 08</li>
+                <li>Rodrigue@marioland.tld</li>
+              </ul>
+            </div>
+            <img src="assets/images/DonkeyKong.png" alt="Photo de Rodrigue" />
+          </li>
+        </ul>
+        <form action="#" class="contact-form">
+          <div class="form-container-inside">
+            <div class="form-group form-group-name">
+              <label for="name">Nom :</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group form-group-surname">
+              <label for="surname">Prénom :</label>
+              <input type="text" id="surname" name="surname" required />
+            </div>
+            <div class="form-group form-group-email">
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group form-group-telephone">
+              <label for="telephone">Téléphone :</label>
+              <input type="tel" id="telephone" name="telephone" required />
+            </div>
+            <div class="form-group form-group-message">
+              <label for="message">Message :</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group form-group-consent">
+              <input type="checkbox" id="consent" name="consent" required />
+              <label for="consent">
+                En cochant j'accepte les termes et conditions
+              </label>
+            </div>
+          </div>
+          <div class="form-container-outside">
+            <button type="submit" class="btn">Envoyer</button>
+          </div>
+        </form>
       </main>
       <footer class="main-footer">
         <a href="mentions-legales.html">Mentions légales</a>
+        <img
+          src="assets/images/superStar.png"
+          alt=""
+          class="super-star-footer"
+        />
+        <div class="briques"></div>
+        <img src="assets/images/carapace.png" alt="Carapace" class="carapace" />
+        <img src="assets/images/tripleBlocs.png" alt="" class="triple-blocs" />
+        <img
+          src="assets/images/marioTuyauGrand.webp"
+          alt=""
+          class="grandTuyau footer-tuyau"
+        />
+        <img
+          src="assets/images/marioTuyauPetit.webp"
+          alt=""
+          class="petitTuyau footer-tuyau"
+        />
+        <img
+          src="assets/images/marioTuyauMoyen.webp"
+          alt=""
+          class="moyenTuyau footer-tuyau"
+        />
       </footer>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz4fnFO9gybB3e5c2Q5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
-      crossorigin="anonymous"
-    ></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>

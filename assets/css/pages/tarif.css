@@ -1,0 +1,124 @@
+main {
+  h1 {
+    font-family: press;
+    -webkit-text-stroke: 2px #d26b20;
+    color: #fbe122;
+    text-shadow: #d26b20 6px 6px 10px;
+  }
+}
+.tarif {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  .position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .tarifTicket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    .ticket {
+      width: 324px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .text {
+        border-radius: 0 0 15px 15px;
+        height: auto;
+        padding: 15px;
+        background-image: url("../../images/Salopette.png");
+        background-size: cover;
+        background-position: center;
+        .detail {
+          background-color: rgba(255, 255, 255, 0.897);
+          border-radius: 15px;
+          padding: 10px;
+          .list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          p:first-of-type {
+            text-decoration: underline;
+            font-size: 1.2rem;
+            text-align: center;
+          }
+          button {
+            background-color: #fbe122;
+            border: none;
+            border-radius: 15px;
+            padding: 5px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+.bandeau {
+  padding: 20px 0;
+  img {
+    width: 100%;
+  }
+}
+.securite {
+  padding: 20px;
+  p {
+    padding: 50px;
+    font-size: 1.7rem;
+    text-align: justify;
+  }
+}
+@media (width < 900px) {
+  main {
+    .Soustitre {
+      margin: 0;
+    }
+    .tarif {
+      .position {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+      }
+      .tarifTicket {
+        .ticket {
+          width: 250px;
+          .detail {
+            .list {
+              ul {
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .securite {
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
+@media (width < 600px) {
+  main {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  .securite {
+    p {
+      padding: 20px 0;
+      font-size: 1rem;
+    }
+  }
+}
+
+@font-face {
+  font-family: press;
+  src: url("../../font/PressStart2P-Regular.ttf");
+}
